@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after ::before {
+    box-sizing: inherit;
+}
+
 .mainHeader {
     color: rgba(14, 13, 13, 0.835);
     text-align: center;
