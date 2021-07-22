@@ -8,6 +8,8 @@ html {
 
 body {
     background-color: rgba(34, 209, 209, 0.383);
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
 }
 
 .darkTheme {
