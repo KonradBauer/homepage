@@ -14,6 +14,11 @@ body {
     max-width: 1000px;
 }
 
+.navigation {
+    margin: auto;
+    text-align: center;
+}
+
 .darkTheme {
     background-color: darkcyan;
 }
