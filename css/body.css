@@ -12,6 +12,7 @@ body {
     line-height: 1.5;
     margin: auto;
     max-width: 1000px;
+    padding: 0 20px;
 }
 
 .navigation {
