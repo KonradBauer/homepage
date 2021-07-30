@@ -11,6 +11,10 @@ html {
     text-align: center;
 }
 
+.mainHeader__hidden {
+    display: none
+}
+
 .aboutMe {
     color: rgba(14, 13, 13, 0.835);
 }

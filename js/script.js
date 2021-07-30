@@ -1,22 +1,18 @@
 console.log("Hello world!");
 const themeButton = document.querySelector(".js-themeButton");
-const removeButton = document.querySelector(".js-removeButton");
+const hideButton = document.querySelector(".js-hideButton");
 const body = document.querySelector("body");
 const mainHeader = document.querySelector(".mainHeader");
 const themeName = document.querySelector(".themeName");
-
+const headerToggle = document.querySelector(".headerToggle");
 
 themeButton.addEventListener("click", () => {
     body.classList.toggle("darkTheme")
-    if (body.classList.contains("darkTheme")) {
-        themeName.innerText = "jasny"
-    } else {
-        themeName.innerText = "ciemny"
-    }
+    themeName.innerText = body.classList.contains("darkTheme") ? "jasny" : "cimeny";
 });
 
-removeButton.addEventListener("click", () => {
-    mainHeader.remove();
-    removeButton.remove();
+hideButton.addEventListener("click", () => {
+    mainHeader.classList.toggle("mainHeader__hidden")
+    headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
 });
 
