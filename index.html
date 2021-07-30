@@ -9,6 +9,7 @@
     <link href="css/body.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,9 +47,37 @@
         </p>
         <p>
     </section>
-    <table>
-        <caption></caption>
-    </table>
+    <div class="container">
+        <table class="table">
+            <caption class="caption">Moje ulubione piosenki</caption>
+            <thead>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="col">Tytuł</th>
+                    <th class="tableCell tableHeader" scope="col">Wykonawca</th>
+                    <th class="tableCell tableHeader" scope="col">Album</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Snow</th>
+                    <td class="tableCell">Red Hot Chili Peppers</td>
+                    <td class="tableCell">Stadium Arcadium</td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Bohemian Rhapsody</th>
+                    <td class="tableCell">Queen</td>
+                    <td class="tableCell">A Night at the Opera</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="tableRow">
+                    <th class="tableCell tableHeader" scope="row">Stairway to Heaven</th>
+                    <td class="tableCell">Led Zeppelin</td>
+                    <td class="tableCell">Led Zeppelin IV</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
     </p>
     <footer class="footer">
         Strona testowa kursu YouCode
