@@ -17,4 +17,3 @@ hideButton.addEventListener("click", () => {
 
     headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
 });
-
