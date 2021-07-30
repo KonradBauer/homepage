@@ -1,0 +1,18 @@
+.listStyle {
+    text-align: center;
+    list-style-type: none;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.navLinks:hover {
+    color: rgba(0, 0, 139, 0.671)
+}
+
+.navLinks:active {
+    color: rgba(0, 0, 139, 0.445)
+}

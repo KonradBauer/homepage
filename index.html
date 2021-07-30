@@ -10,6 +10,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,20 +19,28 @@
 </head>
 
 <body>
+    <nav>
+        <ul class="listStyle">
+            <li class="listItem"><a class="navLinks" href=#o-mnie>O mnie</a></li>
+            <li class="listItem"><a class="navLinks" href=#moje-wykształcenie>Moje wykształcenie</a></li>
+            <li class="listItem"><a class="navLinks" href=#moje-ulubione-piosenki>Moje ulubione piosenki</a></li>
+        </ul>
+    </nav>
+
     <h1 class="mainHeader">Witam na mojej stronie!</h1>
     <p>
         <image class="photo" width="200" src="images/konrad.jpg" alt="Konrad Bauer"></image>
         <button class="js-themeButton buttonStyle">Ustaw <span class="themeName">ciemny</span> motyw</button>
         <button class="js-hideButton buttonStyle"><span class="headerToggle">Ukryj</span> nagłówek</button>
     </p>
-    <section>
+    <section id="o-mnie">
         <h2 class="aboutMe">O mnie:</h2>
         <p class="textStyle">
             Hej! Mam na imię Konrad i mam 27 lat. Jestem z wykształcenia muzykiem, gram głównie na klarnecie oraz na
             gitarze. Oprócz tego interesuję się gotowaniem, astronomią, e-sportem i inwestycjami na giełdzie.
         </p>
     </section>
-    <section>
+    <section id="moje-wykształcenie">
         <h2 class="education">Wykształcenie:</h2>
         <p class="textStyle">
             <strong>Licencjat</strong>
@@ -45,12 +54,11 @@
             <b>Studia magisterskie na kierunku Edukacja artystyczna w zakresie sztuki muzycznej, w specjalności
                 nauczycielskiej.</b>
         </p>
-        <p>
     </section>
     <div class="container">
         <table class="table">
             <caption class="caption">Moje ulubione piosenki</caption>
-            <thead>
+            <thead id="moje-ulubione-piosenki">
                 <tr class="tableRow">
                     <th class="tableCell tableHeader" scope="col">Tytuł</th>
                     <th class="tableCell tableHeader" scope="col">Wykonawca</th>
@@ -78,7 +86,6 @@
             </tfoot>
         </table>
     </div>
-    </p>
     <footer class="footer">
         Strona testowa kursu YouCode
     </footer>
