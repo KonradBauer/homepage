@@ -10,6 +10,8 @@ body {
     background-color: rgb(37 211 211 / 38%);
     font-family: "Lato", sans-serif;
     line-height: 1.5;
+    margin: auto;
+    max-width: 1000px;
 }
 
 .darkTheme {

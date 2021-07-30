@@ -8,11 +8,13 @@ const headerToggle = document.querySelector(".headerToggle");
 
 themeButton.addEventListener("click", () => {
     body.classList.toggle("darkTheme")
-    themeName.innerText = body.classList.contains("darkTheme") ? "jasny" : "cimeny";
+
+    themeName.innerText = body.classList.contains("darkTheme") ? "jasny" : "ciemny";
 });
 
 hideButton.addEventListener("click", () => {
     mainHeader.classList.toggle("mainHeader__hidden")
+
     headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
 });
 
