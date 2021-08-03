@@ -19,7 +19,7 @@ html {
     color: rgba(14, 13, 13, 0.835);
 }
 
-.photo {
+.mainHeader__photo {
     display: block;
     margin: 5px auto;
     border-radius: 20%;
@@ -27,7 +27,7 @@ html {
     width: 200px;
 }
 
-.textStyle {
+.subHeader__textStyle {
     color: rgb(21, 29, 29);
     padding: 5px;
 }

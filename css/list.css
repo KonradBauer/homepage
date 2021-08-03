@@ -1,24 +1,24 @@
-.listStyle {
+.navigation__listStyle {
     text-align: center;
     list-style-type: none;
     padding: 0;
 }
 
-.listItem:hover {
+.navigation__listItem:hover {
     transition: 0.5s;
     transform: scale(1.2);
 }
 
-.navLinks {
+.navigation__links {
     text-decoration: none;
     color: darkblue;
     font-weight: bold;
 }
 
-.navLinks:hover {
+.navigation__links:hover {
     color: rgba(0, 0, 139, 0.671)
 }
 
-.navLinks:active {
+.navigation__links:active {
     color: rgba(0, 0, 139, 0.445)
 }
