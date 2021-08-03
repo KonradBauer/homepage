@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navigation">
-        <ul class="navigation__listStyle">
+        <ul class="navigation__list">
             <li class="navigation__listItem"><a class="navigation__links" href=#o-mnie>O mnie</a></li>
             <li class="navigation__listItem"><a class="navigation__links" href=#moje-wykształcenie>Moje
                     wykształcenie</a>
@@ -34,65 +34,64 @@
     </nav>
 
     <h1 class="mainHeader">Witam na mojej stronie!</h1>
-    <p>
-        <image class="mainHeader__photo" src="images/konrad.jpg" alt="Konrad Bauer"></image>
-        <button class="js-themeButton mainHeader__buttonStyle">Ustaw <span class="themeName">ciemny</span>
+    <p class="paragraph">
+        <image class="paragraph__photo" src="images/konrad.jpg" alt="Konrad Bauer"></image>
+        <button class="js-themeButton paragraph__buttonStyle">Ustaw <span class="js-themeName">ciemny</span>
             motyw</button>
-        <button class="js-hideButton mainHeader__buttonStyle"><span class="headerToggle">Ukryj</span> nagłówek</button>
+        <button class="js-hideButton paragraph__buttonStyle"><span class="js-headerToggle">Ukryj</span>
+            nagłówek</button>
     </p>
-    <section id="o-mnie">
-        <h2 class="subHeader">O mnie:</h2>
-        <p class="subHeader__textStyle">
+    <section class="aboutMeSection" id="o-mnie">
+        <h2 class="aboutMeSection__subHeader">O mnie:</h2>
+        <p class="aboutMeSection__textStyle">
             Hej! Mam na imię Konrad i mam 27 lat. Jestem z wykształcenia muzykiem, gram głównie na klarnecie oraz na
             gitarze. Oprócz tego interesuję się gotowaniem, astronomią, e-sportem i inwestycjami na giełdzie.
         </p>
     </section>
-    <section id="moje-wykształcenie">
-        <h2 class="subHeader">Wykształcenie:</h2>
-        <p class="subHeader__textStyle">
+    <section class="educationSection" id="moje-wykształcenie">
+        <h2 class="educationSection__subHeader">Wykształcenie:</h2>
+        <p class="educationSection__textStyle">
             <strong>Licencjat</strong>
             Uniwersytet im. Jana Długosza w Częstochowie,
             <b>Studia licencjackie na kierunku Edukacja artystyczna w zakresie sztuki muzycznej, w specjalności
                 nauczycielskiej.</b><br>
         </p>
-        <p class="subHeader__textStyle">
+        <p class="educationSection__textStyle">
             <strong>Magister</strong>
             Uniwersytet im. Jana Długosza w Częstochowie,
             <b>Studia magisterskie na kierunku Edukacja artystyczna w zakresie sztuki muzycznej, w specjalności
                 nauczycielskiej.</b>
         </p>
     </section>
-    <div class="container">
-        <table class="container__table">
-            <caption class="caption">Moje ulubione piosenki</caption>
-            <thead id="moje-ulubione-piosenki">
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="col">Tytuł</th>
-                    <th class="tableCell tableHeader" scope="col">Wykonawca</th>
-                    <th class="tableCell tableHeader" scope="col">Album</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="row">Snow</th>
-                    <td class="tableCell">Red Hot Chili Peppers</td>
-                    <td class="tableCell">Stadium Arcadium</td>
-                </tr>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="row">Bohemian Rhapsody</th>
-                    <td class="tableCell">Queen</td>
-                    <td class="tableCell">A Night at the Opera</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr class="tableRow">
-                    <th class="tableCell tableHeader" scope="row">Stairway to Heaven</th>
-                    <td class="tableCell">Led Zeppelin</td>
-                    <td class="tableCell">Led Zeppelin IV</td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+    <table class="table">
+        <caption class="table__caption">Moje ulubione piosenki</caption>
+        <thead id="moje-ulubione-piosenki">
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                <th class="table__cell table__cell--header" scope="col">Album</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tableRow">
+                <th class="table__cell table__cell--header" scope="row">Snow</th>
+                <td class="table__cell">Red Hot Chili Peppers</td>
+                <td class="table__cell">Stadium Arcadium</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Bohemian Rhapsody</th>
+                <td class="table__cell">Queen</td>
+                <td class="table__cell">A Night at the Opera</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Stairway to Heaven</th>
+                <td class="table__cell">Led Zeppelin</td>
+                <td class="table__cell">Led Zeppelin IV</td>
+            </tr>
+        </tfoot>
+    </table>
     <footer class="footer">
         Strona testowa kursu YouCode
     </footer>

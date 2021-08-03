@@ -3,8 +3,8 @@ const themeButton = document.querySelector(".js-themeButton");
 const hideButton = document.querySelector(".js-hideButton");
 const body = document.querySelector("body");
 const mainHeader = document.querySelector(".mainHeader");
-const themeName = document.querySelector(".themeName");
-const headerToggle = document.querySelector(".headerToggle");
+const themeName = document.querySelector(".js-themeName");
+const headerToggle = document.querySelector(".js-headerToggle");
 
 themeButton.addEventListener("click", () => {
     body.classList.toggle("darkTheme")

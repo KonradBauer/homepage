@@ -15,11 +15,7 @@ html {
     display: none
 }
 
-.subHeader {
-    color: rgba(14, 13, 13, 0.835);
-}
-
-.mainHeader__photo {
+.paragraph__photo {
     display: block;
     margin: 5px auto;
     border-radius: 20%;
@@ -27,12 +23,7 @@ html {
     width: 200px;
 }
 
-.subHeader__textStyle {
-    color: rgb(21, 29, 29);
-    padding: 5px;
-}
-
-.mainHeader__buttonStyle {
+.paragraph__buttonStyle {
     display: block;
     margin: 2px auto;
     padding: 10px;
@@ -41,7 +32,25 @@ html {
     border: none;
 }
 
-.mainHeader__buttonStyle:hover {
+.paragraph__buttonStyle:hover {
     color: #242323cc;
     background: #d4dee7;
+}
+
+.aboutMeSection__textStyle {
+    color: rgb(21, 29, 29);
+    padding: 5px;
+}
+
+.aboutMeSection__subHeader {
+    color: rgba(14, 13, 13, 0.835);
+}
+
+.educationSection__textStyle {
+    color: rgb(21, 29, 29);
+    padding: 5px;
+}
+
+.educationSection__subHeader {
+    color: rgba(14, 13, 13, 0.835);
 }

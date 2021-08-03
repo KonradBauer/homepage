@@ -1,32 +1,29 @@
-.container__table {
+.table {
     border-collapse: collapse;
     width: 100%;
+    overflow-x: auto;
 }
 
-.tableCell {
+.table__cell {
     border: 1px solid white;
     padding: 20px;
     text-align: center;
 }
 
-.caption {
+.table__caption {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.tableHeader {
+.table__cell--header {
     background-color: crimson;
     color: white;
 }
 
-.tableRow:nth-child(even) {
+.table__row:nth-child(even) {
     background: #eee;
 }
 
-.tableRow:hover {
+.table__row:hover {
     background-color: #ddd;
-}
-
-.container {
-    overflow-x: auto;
 }
