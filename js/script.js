@@ -13,7 +13,7 @@ themeButton.addEventListener("click", () => {
 });
 
 hideButton.addEventListener("click", () => {
-    mainHeader.classList.toggle("mainHeader__hidden")
+    mainHeader.classList.toggle("mainHeader--hidden")
 
     headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
 });

@@ -11,7 +11,7 @@ html {
     text-align: center;
 }
 
-.mainHeader__hidden {
+.mainHeader--hidden {
     display: none
 }
 
@@ -32,7 +32,7 @@ html {
     padding: 5px;
 }
 
-.buttonStyle {
+.mainHeader__buttonStyle {
     display: block;
     margin: 2px auto;
     padding: 10px;
@@ -41,7 +41,7 @@ html {
     border: none;
 }
 
-.buttonStyle:hover {
+.mainHeader__buttonStyle:hover {
     color: #242323cc;
     background: #d4dee7;
 }
