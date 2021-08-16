@@ -1,19 +1,26 @@
-console.log("Hello world!");
-const themeButton = document.querySelector(".js-themeButton");
-const hideButton = document.querySelector(".js-hideButton");
-const body = document.querySelector("body");
-const mainHeader = document.querySelector(".mainHeader");
-const themeName = document.querySelector(".js-themeName");
-const headerToggle = document.querySelector(".js-headerToggle");
+{
+    welcome = () => { console.log("Hello world!") };
 
-themeButton.addEventListener("click", () => {
-    body.classList.toggle("darkTheme")
+    const toggleTheme = () => {
+        const themeName = document.querySelector(".js-themeName");
+        const body = document.querySelector("body");
+        body.classList.toggle("darkTheme")
+        themeName.innerText = body.classList.contains("darkTheme") ? "jasny" : "ciemny";
+    };
 
-    themeName.innerText = body.classList.contains("darkTheme") ? "jasny" : "ciemny";
-});
+    const toggleHeader = () => {
+        const mainHeader = document.querySelector(".mainHeader");
+        const headerToggle = document.querySelector(".js-headerToggle");
+        mainHeader.classList.toggle("mainHeader--hidden")
+        headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
+    };
+    const init = () => {
+        const themeButton = document.querySelector(".js-themeButton");
+        const hideButton = document.querySelector(".js-hideButton");
+        hideButton.addEventListener("click", toggleHeader);
+        themeButton.addEventListener("click", toggleTheme);
+        welcome();
+    };
 
-hideButton.addEventListener("click", () => {
-    mainHeader.classList.toggle("mainHeader--hidden")
-
-    headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
-});
+    init();
+}
