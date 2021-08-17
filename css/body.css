@@ -15,11 +15,6 @@ body {
     padding: 0 20px;
 }
 
-.navigation {
-    margin: auto;
-    text-align: center;
-}
-
 .darkTheme {
     background-color: darkcyan;
 }
