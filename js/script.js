@@ -14,11 +14,12 @@
         mainHeader.classList.toggle("mainHeader--hidden")
         headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
     };
+
     const init = () => {
-        const themeButton = document.querySelector(".js-themeButton");
+        const themeButtonElement = document.querySelector(".js-themeButton");
         const hideButton = document.querySelector(".js-hideButton");
         hideButton.addEventListener("click", toggleHeader);
-        themeButton.addEventListener("click", toggleTheme);
+        themeButtonElement.addEventListener("click", toggleTheme);
         welcome();
     };
 
