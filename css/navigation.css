@@ -9,9 +9,12 @@
     padding: 0;
 }
 
-.navigation__listItem:hover {
+.navigation__listItem {
     transition: 0.5s;
-    transform: scale(1.2);
+}
+
+.navigation__listItem:hover {
+    transform: scale(1.125);
 }
 
 .navigation__links {
