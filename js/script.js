@@ -14,7 +14,7 @@
         const headerToggle = document.querySelector(".js-headerToggle");
 
         mainHeader.classList.toggle("mainHeader--hidden")
-        headerToggle.innerText = mainHeader.classList.contains("mainHeader__hidden") ? "Pokaż" : "Ukryj";
+        headerToggle.innerText = mainHeader.classList.contains("mainHeader--hidden") ? "Pokaż" : "Ukryj";
     };
 
     const init = () => {
