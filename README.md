@@ -2,7 +2,7 @@
 
 ## This is my personal homepage.
 
-### *Demo* https://konradbauer.github.io/homepage2/
+### *Demo* https://konradbauer.github.io/homepage/
 
 ### This site contains some information about me. 
 ![animation](https://github.com/KonradBauer/homepage2/blob/main/images/homepageAnimation.gif?raw=true)
